@@ -1,0 +1,64 @@
+/*
+Author: Alexander Roeltgen
+Date: 4/1
+File Name: applu08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #f4f9e1;
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style rule for the table element: sets width, margins, and border */
+table {
+    width: 80%;
+    margin: 0 auto; /* Top and bottom margins set to 0, left and right margins set to auto */
+    border: 3px solid #71881b;
+}
+
+/* Collapses border for table, tr, th, and td and sets padding */
+table, tr, th, td {
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+/* Style rule for the caption element: sets font size, padding, and margin */
+caption {
+    font-size: 2em;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+/* Sets border for th and td elements */
+th, td {
+    border: 1px solid #7188bb;
+}
+
+/* Centers text in td elements */
+td {
+    text-align: center;
+}
+
+/* Sets background color for odd rows in tr elements */
+tr:nth-child(odd) {
+    background-color: #d3e788;
+}

@@ -1,0 +1,140 @@
+/*
+Author: Alexander Roeltgen
+Date:4/1
+File Name: styles08.css
+*/
+
+/* Style for body specifies a background color */
+body {
+	background: linear-gradient(to top right, #fff 0%, #6699ff 100%) no-repeat fixed center;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Style rules for form elements */
+
+
+/* Style for the footer element */
+footer {
+	font-size: .9em;
+	text-align: center;
+}
+
+
+
+
+
+/* Styles for the main area */
+main {
+    padding: 20px;
+    border-radius: 10px; /* Example radius */
+}
+
+/* Styles for the form grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust as needed */
+    padding: 20px;
+}
+
+/* Styles for fieldsets */
+fieldset {
+    border: 2px solid #ccc; /* Example color */
+    padding: 20px;
+    margin-bottom: 20px; /* Spacing between fieldsets */
+}
+
+/* Styles for legends */
+legend {
+    padding: 0 10px;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #333; /* Example color */
+}
+
+/* Styles for labels */
+label {
+    display: block;
+    margin-top: 10px; /* Spacing above each label */
+}
+
+/* Styles for inputs */
+input {
+    width: calc(100% - 22px); /* Account for padding and borders */
+    padding: 10px;
+    margin-bottom: 2%; /* As per the instruction */
+    border: 1px solid #ccc; /* Example color */
+}
+
+/* Style for submit button */
+.btn {
+    background-color: #003399; /* Dark blue color */
+    color: #fff; /* White color */
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    display: block; /* Centers the button */
+    width: fit-content; /* Makes the button as wide as its content */
+    margin: 20px auto; /* Spacing and centering the button */
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Mobile viewport styles */
+fieldset, input {
+    margin-bottom: 2%;
+}
+
+legend {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    margin: 0 auto; /* Top and bottom margin set to 0, left and right margin set to auto */
+    display: block;
+    padding: 5%;
+    background-color: #003399;
+    font-size: 1.25em;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* Styles for footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #333; /* Example color */
+}
+
+
+/* Media query for tablet layout */
+@media only screen and (min-width: 600px) {
+
+    form {
+        width: 80%;
+        margin: 0 auto; /* Top and bottom margin set to 0, left and right margin set to auto */
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    .btn {
+        grid-column: 1 / span 2;
+        padding: 3%;
+    }
+}

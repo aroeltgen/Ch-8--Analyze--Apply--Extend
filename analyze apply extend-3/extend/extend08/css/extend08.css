@@ -1,0 +1,45 @@
+/*
+Author: Alexander Roeltgen
+Date: 4/1
+File Name: extend08.css
+*/
+
+/* Sets the body background color and applies a sans-serif font to the entire page */
+body {
+    background-color: #ffe5dc;
+    font-family: sans-serif;
+}
+
+/* Styles the table with a border, box shadow, and centers it on the page */
+table {
+    border: 3px solid #fd4d0c;
+    box-shadow: 4px 4px 4px #792101;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+/* Adds padding, border, and centers text for all table data and header cells */
+th, td {
+    padding: 8px;
+    border: 1px solid #a22c02;
+    text-align: center;
+}
+
+/* Sets a distinct background color for odd table rows */
+tr:nth-child(odd) {
+    background-color: #fe9772;
+}
+
+/* Styles the table header cells */
+th {
+    background-color: #fd4d0c;
+    color: white;
+}
+
+/* Styles the caption with larger text and extra padding */
+caption {
+    font-size: 1.5em;
+    padding: .5em;
+    margin-top: .5em;
+}
